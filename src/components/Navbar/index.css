@@ -1,0 +1,50 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  padding: 0px 20px 0px 20px;
+  position: fixed;
+}
+.home-about-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  width: 30px;
+}
+.mode-image {
+  width: 30px;
+}
+.home-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.about-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.theme-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.light-color {
+  color: #171f46;
+}
+.dark-color {
+  color: #ffffff;
+}
+.pale-dark-bg {
+  background-color: #333333;
+}

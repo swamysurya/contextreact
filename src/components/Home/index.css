@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-image {
+  max-width: 100px;
+}
+.dark-bg {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-bg {
+  color: #1e293b;
+}
